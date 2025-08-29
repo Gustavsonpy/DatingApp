@@ -1,0 +1,62 @@
+################################################################################
+# Visual Studio e .NET Core
+################################################################################
+*.[Dd]b
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+*.vshost.*
+*.vspscc
+*.vssscc
+
+# Binários gerados
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+
+# Packages NuGet
+[Pp]ackages/
+[Dd]ist/
+
+# Arquivos de log e de cache
+*.log
+*.cache
+*.tmp
+*.temp
+
+# Arquivos de configurações secretos
+appsettings.Development.json
+appsettings.Production.json
+appsettings.staging.json
+
+# Arquivos de backup
+*.bak
+*.old
+
+# Arquivos de teste
+TestResults/
+.trx
+
+# Cache de editor (Visual Studio, VS Code)
+.vs/
+.vscode/
+
+# Arquivos do Rider
+.idea/
+*.sln.dotSettings
+
+# Arquivos do ReSharper
+_ReSharper.*/
+[Rr]e[Ss]harper.*/
+*.resharper
+*.nupkg
+*.orig
+[Ee]xplorer.exe.config
+*.webtest
+*.webtest.user
+[Ss]ource.*/
+
+# Outros
+[Tt]emp/
